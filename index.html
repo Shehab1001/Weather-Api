@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="images/logo@2x.png" alt="Logo" width="64" height="38"
+                        class="d-inline-block align-text-top">
+                    <div class="d-inline-block ms-2  text-white">
+                        <h1 class="logo">Weather</h1>
+                        <span>tagline goes here</span>
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Live cameras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Photos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- start landing section -->
+    <section class="landing">
+
+        <div class="container">
+            <div class="position-relative">
+                <input type="text" name="location" placeholder="Find your location..." id="countryValue">
+                <button class="btn btn-info">Find</button>
+            </div>
+        </div>
+    </section>
+    <!-- end landing section -->
+    <div class="cards mb-5">
+        <div class="container">
+            <div class="items rounded-3 overflow-hidden" id="showCard">
+
+            </div>
+        </div>
+    </div>
+    <!-- start footer -->
+    <footer>
+        <div class="container">
+            <div class="pt-5 pb-3 content">
+                <div class="position-relative subscribe-content">
+                    <input type="email" name="subscribe" placeholder="Enter your email...">
+                    <button class="btn btn-info">Subscribe</button>
+                </div>
+                <div>
+                    <div class="social-media d-flex">
+                        <div>
+                            <a href="#"><i class="fa fa-brands fa-facebook-f"></i></a>
+                        </div>
+                        <div>
+                            <a href="#"><i class="fa fa-brands fa-twitter"></i></a>
+                        </div>
+                        <div>
+                            <a href="#"><i class="fa fa-brands fa-google"></i></a>
+                        </div>
+                        <div>
+                            <a href="#"><i class="fa fa-brands fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="text-white pt-2 pb-5 text-center">Copyright 2023 Company name. Designed by Shehab. All rights reserved</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
